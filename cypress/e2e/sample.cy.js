@@ -9,7 +9,7 @@ describe('Verify Page Title', () => {
         // Verify that the <body> element is visible to confirm the page has rendered
         cy.get('body', { timeout: 10000 }).should('be.visible');
         
-        // Step 3: Verify the page title
+         // Step 3: Verify the page title
         // Check that the title of the page matches the expected value
         cy.title().should('eq', 'EH-SideKick'); // 
     });
